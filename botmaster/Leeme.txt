@@ -1,0 +1,1 @@
+Para executar o noso BotMaster, simplemente tendremos que pinchar 2 veces no arquivo BotMaster.bat
